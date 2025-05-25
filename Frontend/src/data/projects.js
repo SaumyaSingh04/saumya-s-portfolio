@@ -1,8 +1,20 @@
+import ecommerce from '../assets/e-commerce.png';
+import spotify from '../assets/spotify.png';
+import roomchat from '../assets/RoomChat.png';
+import empdata from '../assets/emp-data.png';
+import portfolio from '../assets/portfolio.png';
+import confession from '../assets/confession.png';
+import restaurant from '../assets/Restaurant.png';
+import chatapp from '../assets/ChatApp.png';
+import auth from '../assets/auth.png';
+import bharatweb from '../assets/bharatweb.png';
+import chatbot from '../assets/chatbot.png';
+
 const projects = [
   {
     id: 1,
-    title: "LocalsConnect(pending)",
-    image: "/assets/localshopconnect.png",
+    title: "LocalsConnect (Pending)",
+    image: "",
     liveDemo: "#",
     codeLink: "#",
     description: "A full-stack local e-commerce app with buyer/seller/admin roles, authentication, product and order management.",
@@ -10,7 +22,7 @@ const projects = [
   {
     id: 2,
     title: "Mern_e_Commerce",
-    image: "assets/e-commerce.png",
+    image: ecommerce,
     liveDemo: "https://mern-e-commerce-frontend-sigma.vercel.app",
     codeLink: "https://github.com/SaumyaSingh04/Mern_e_Commerce-Frontend",
     description: "Frontend for a complete MERN e-commerce application.",
@@ -18,7 +30,7 @@ const projects = [
   {
     id: 3,
     title: "Spotify Clone",
-    image: "assets/spotify.png",
+    image: spotify,
     liveDemo: "https://spotify-clone-nine-nu-51.vercel.app",
     codeLink: "https://github.com/SaumyaSingh04/Spotify-clone",
     description: "A Spotify-inspired music streaming app with play controls, and dynamic UI using React and Node.js.",
@@ -26,7 +38,7 @@ const projects = [
   {
     id: 4,
     title: "Chatting Application",
-    image: "assets/RoomChat.png",
+    image: roomchat,
     liveDemo: "#",
     codeLink: "https://github.com/SaumyaSingh04/Chatting-Application",
     description: "A chatting application built using WebSocket, HTTP, Express, and CORS.",
@@ -34,7 +46,7 @@ const projects = [
   {
     id: 5,
     title: "Employee Data Management System",
-    image: "assets/emp-data.png",
+    image: empdata,
     liveDemo: "https://employee-data-crud.vercel.app",
     codeLink: "https://github.com/SaumyaSingh04/employee-data-crud",
     description: "A CRUD-based employee management system with features to add, edit, and delete employee records.",
@@ -42,7 +54,7 @@ const projects = [
   {
     id: 6,
     title: "Portfolio Website",
-    image: "assets/portfolio.png",
+    image: portfolio,
     liveDemo: "https://saumya-s-portfolio.vercel.app",
     codeLink: "https://github.com/SaumyaSingh04/saumya-s-portfolio.git",
     description: "A personal portfolio site to showcase my web development skills, projects, and contact details.",
@@ -50,7 +62,7 @@ const projects = [
   {
     id: 7,
     title: "Anonymous Confession Wall",
-    image: "assets/confession.png",
+    image: confession,
     liveDemo: "https://anonymous-confession-wall.vercel.app",
     codeLink: "https://github.com/SaumyaSingh04/Anonymous-Confession-Wall",
     description: "A platform to post and react to anonymous confessions. Includes real-time updates, reporting, and trending features.",
@@ -58,7 +70,7 @@ const projects = [
   {
     id: 8,
     title: "DineReserve – Restaurant Reservation System",
-    image: "assets/Restaurant.png",
+    image: restaurant,
     liveDemo: "#",
     codeLink: "https://github.com/SaumyaSingh04/restaurant-reservation",
     description: "A modern table reservation app with an elegant UI and email-based booking system. Built with MERN and styled using Tailwind CSS.",
@@ -66,7 +78,7 @@ const projects = [
   {
     id: 9,
     title: "realTalk-realTime",
-    image: "assets/ChatApp.png",
+    image: chatapp,
     liveDemo: "#",
     codeLink: "https://github.com/SaumyaSingh04/realTalk-realTime",
     description: "A real-time chat application using Socket.io and Node.js.",
@@ -74,7 +86,7 @@ const projects = [
   {
     id: 10,
     title: "AuthFlow – Advanced Auth App",
-    image: "assets/auth.png",
+    image: auth,
     liveDemo: "#",
     codeLink: "https://github.com/SaumyaSingh04/mern-adv-auth-system",
     description: "A secure full-stack application with JWT-based authentication, protected routes. Built with MERN stack and scalable auth architecture.",
@@ -82,7 +94,7 @@ const projects = [
   {
     id: 11,
     title: "Herbal Bharatwed Website",
-    image: "assets/bharatweb.png",
+    image: bharatweb,
     liveDemo: "#",
     codeLink: "https://github.com/SaumyaSingh04/herbal-bharatwed-web.git",
     description: "A static website for Bharatwed's herbal product showcase. Built with clean, modern design and responsive layout.",
@@ -90,7 +102,7 @@ const projects = [
   {
     id: 12,
     title: "ChatBot App",
-    image: "assets/chatbot.png",
+    image: chatbot,
     liveDemo: "#",
     codeLink: "https://github.com/SaumyaSingh04/chatBot.git",
     description: "An AI-based chatbot interface with basic conversational logic using JavaScript and HTML/CSS.",
