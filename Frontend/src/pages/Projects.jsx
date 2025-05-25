@@ -28,7 +28,7 @@ const Projects = () => {
             transition={{ duration: 0.5, delay: project.id * 0.1 }}
           >
             {/* Project Image */}
-            <img src={project.image} alt={project.title} className="w-full h-40 object-cover" />
+            <img src={project.image} alt={project.title} className="w-full h-50 object-cover" />
 
             {/* Project Details */}
             <div className="p-5 text-center">
