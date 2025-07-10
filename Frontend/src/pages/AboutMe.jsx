@@ -36,10 +36,10 @@ const AboutMe = () => {
         transition={{ duration: 1, delay: 0.4 }}
       >
         Hi! I’m <span className="text-[#9c9c9c] font-semibold">Saumya Singh</span>, a passionate{" "}
-        <span className="text-[#9c9c9c] font-semibold">Frontend Developer</span>. I love building
-        beautiful, functional websites and web applications. With a strong background in{" "}
-        <span className="text-[#9c9c9c] font-semibold">React , Node , MongoDB</span>,
-        I turn creative ideas into reality. 🚀
+<span className="text-[#9c9c9c] font-semibold">Full Stack Web Developer</span>. I love building
+beautiful and functional websites & web applications. With expertise in{" "}
+<span className="text-[#9c9c9c] font-semibold">React, Node.js,Express.js and MongoDB</span>, I turn creative ideas into scalable, real-world solutions. 🚀
+
       </motion.p>
 
       {/* Skills */}

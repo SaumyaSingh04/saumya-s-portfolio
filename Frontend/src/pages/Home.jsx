@@ -17,10 +17,12 @@ import Profile from "./Profile";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import About from "./AboutMe"
+import Experience from "./Experience";
 
 const CardSlider = () => {
   const cards = [
     { component: <Profile /> },
+    { component: <Experience />},
     { component: <Education /> },
     { component: <Projects /> },
     { component: <Skills /> },
