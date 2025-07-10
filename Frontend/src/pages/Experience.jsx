@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Experiences from "../data/experience"; // make sure this matches your file name
+import Experiences from "../data/experience"; 
 
 const Experience = () => {
   return (
