@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import experiences from "../data/experience";
+import Experiences from "../data/experience"; // make sure this matches your file name
 
 const Experience = () => {
   return (
@@ -36,7 +36,7 @@ const Experience = () => {
           },
         }}
       >
-        {experiences.map((exp, index) => (
+        {Experiences.map((exp, index) => (
           <motion.div
             key={exp.id}
             className="relative group p-6 sm:p-8 border border-gray-600 rounded-xl bg-[#1a1a1a] shadow-md overflow-hidden hover:shadow-xl transition-all duration-300"
