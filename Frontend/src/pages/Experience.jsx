@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Experiences from "../data/experience";
+import Experiences from "../data/experience.js";
 
 const Experience = () => {
   return (
