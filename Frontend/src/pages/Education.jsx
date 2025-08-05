@@ -29,7 +29,7 @@ const Education = () => {
         <p className="text-lg italic">BCA: Computer Application (June 2023 – Present)</p>
         <p className="text-md">GPA: 7.22</p>
         <p className="text-sm text-gray-400">
-          Relevant Coursework: Website Development, Software Engineering, Theory of Computation
+          Relevant Coursework: Website Development, Software Engineering, Javascript Theory
         </p>
       </motion.div>
 

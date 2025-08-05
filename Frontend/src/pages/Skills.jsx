@@ -16,6 +16,10 @@ function Skills() {
     "Redux",
     "Canva",
     "Figma",
+    "Firebase",
+    "Cron Jobs",
+    "Agile Dev",
+    "Team Collab",
     "Responsive Web Design",
   ];
 
